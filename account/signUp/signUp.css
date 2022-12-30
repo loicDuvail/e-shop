@@ -1,0 +1,133 @@
+body {
+    --baseColor: #7adeca;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+input:invalid {
+    border: 1px solid black;
+}
+
+input:valid {
+    border: 2px solid var(--baseColor);
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: medium;
+    margin: 13px;
+    border: 1px solid black;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: medium;
+    margin: 13px;
+    border: 1px solid black;
+}
+
+#submit-button {
+    border: 1px solid black;
+    color: var(--baseColor);
+    background-color: white;
+    padding: 10px;
+    transition: all 300ms ease-out;
+}
+
+#submit-button:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: var(--baseColor);
+    padding: 10px;
+    border-color: var(--baseColor);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 360px;
+    min-width: 200px;
+    transform: translate(-50%);
+    margin-left: 50vw;
+    margin-top: 60px;
+    padding: 20px 15px 20px 15px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.233);
+    border-radius: 6px;
+}
+
+#login-redir-container {
+    display: flex;
+    flex-direction: row;
+    transform: translate(-50%);
+    margin-left: 50vw;
+    padding: 5px 15px 5px 15px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.233);
+    border-radius: 6px;
+    width: 80%;
+    max-width: 360px;
+    min-width: 200px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin-left: 12px;
+    color: rgb(38, 38, 38);
+}
+
+#password-label {
+    display: flex;
+    position: relative;
+}
+
+#password-confirmation-label {
+    display: flex;
+    position: relative;
+}
+
+#eye-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#closed-eye1 {
+    position: absolute;
+}
+#opened-eye1 {
+    position: absolute;
+    display: none;
+}
+
+#eye-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#closed-eye2 {
+    position: absolute;
+}
+#opened-eye2 {
+    position: absolute;
+    display: none;
+}
