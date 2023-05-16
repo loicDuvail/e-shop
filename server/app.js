@@ -756,4 +756,4 @@ const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`listening on port ${PORT}...`));
 
 /////////////// temporary //////////
-const websiteUrl = "http://localhost:8080";
+const websiteUrl = "http://34.163.205.170/";
